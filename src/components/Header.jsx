@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import banner from '../assets/biglogo.png';
+import banner from '../assets/banner.avif';
 
 function Header() {
   return (
