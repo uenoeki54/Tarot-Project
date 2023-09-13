@@ -2,8 +2,8 @@ import React from 'react';
 import toteninsel from '../assets/toteninsel400.jpg';
 function Home() {
   return (
-    <div>
-      <img src={toteninsel}></img>
+    <div className="main">
+      <img src={toteninsel} className="main-illustration"></img>
       <p>
         Lorem Ipsum is simply dummy text of the printing and typesetting
         industry. Lorem Ipsum has been the industry s standard dummy text ever
