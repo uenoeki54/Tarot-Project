@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useRef } from 'react';
 import './collapse.css';
-function Collapse({ title, text, size }) {
+function Collapse({ title, size }, props) {
   const [open, setOPen] = useState(false);
   const toggle = () => {
     setOPen(!open);
@@ -29,7 +29,7 @@ function Collapse({ title, text, size }) {
         }
         className={'content ' + size}
       >
-        <div className="description">{text}</div>
+        <div className="description">{props.children}</div>
       </div>
     </div>
   );
