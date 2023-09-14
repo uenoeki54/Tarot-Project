@@ -10,16 +10,18 @@
   background-color: #ff6060;
   width: 1023px;
   height: 52px;
-  border-radius: 10px;
-  color: black;
+  border-radius: 10px 10px 0px 0px;
+  background-image: url("../../assets/texture300.jpg");
   margin-top: 30px;
   padding: 10px 21px 10px 21px;
   font-weight: 500;
-  font-size: 24px;
-  line-height: 34.22px;
+  font-size: 15px;
+  line-height: 20.22px;
   margin-left: auto;
   margin-right: auto;
-  z-index: 2;
+  z-index: 5;
+  color: white;
+  box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
 }
 @media (max-width: 470px) {
   .collapse {
@@ -53,8 +55,7 @@
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
-  margin-top: -10px;
-  z-index: -1;
+  margin-top: 0px;
   transition: height ease 0.4s;
   position: relative;
 }
@@ -64,6 +65,10 @@
   font-weight: 20px;
   color: #ff6060;
   line-height: 20 px;
+  z-index: 4;
+}
+.content .description a {
+  z-index: 7;
 }
 .content .description ul {
   list-style-type: none;
