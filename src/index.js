@@ -6,6 +6,8 @@ import Header from './components/Header';
 import Aside from './components/Aside';
 import Home from './pages/Home';
 import Card from './pages/Card';
+import Error from './pages/Error';
+import Construction from './pages/Construction';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -18,6 +20,8 @@ root.render(
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/card/:cardId" element={<Card />} />
+            <Route path="/construction" element={<Construction />} />
+            <Route path="*" element={<Error />} />
           </Routes>
         </div>
       </div>

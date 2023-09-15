@@ -158,3 +158,15 @@ header {
     }
   }
 }
+
+.error {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 300px 0px 0px 300px;
+  img {
+  }
+  h1 {
+    display: block;
+  }
+}

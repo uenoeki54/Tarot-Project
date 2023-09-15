@@ -8,7 +8,7 @@ function Aside() {
       <Link to="/">Back to Intromission</Link>
       <Collapse title="Major Arcana" size="small">
         {ids.map((id) => (
-          <li>
+          <li key={id.id}>
             <Link to={`./Card/${id.id}`}>{id.name}</Link>
           </li>
         ))}

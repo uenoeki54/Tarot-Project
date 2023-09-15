@@ -187,4 +187,14 @@ header {
     top: 70px;
     width: 70px;
   }
+}
+
+.error {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 300px 0px 0px 300px;
+}
+.error h1 {
+  display: block;
 }/*# sourceMappingURL=main.css.map */
