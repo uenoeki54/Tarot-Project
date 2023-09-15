@@ -13,9 +13,7 @@ function Collapse(props) {
         <h2>{props.title}</h2>
         <i
           className={
-            open
-              ? 'downwards fa-solid fa-chevron-up'
-              : 'upwards fa-solid fa-chevron-up'
+            open ? 'downwards fa-solid fa-cross' : 'upwards fa-solid fa-cross'
           }
           onClick={toggle}
         ></i>
