@@ -1,46 +1,17 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import Collapse from './Collapse/Collapse';
+import ids from '.././assets/major.json';
 function Aside() {
   return (
     <div className="menu">
       <Link to="/">Back to Intromission</Link>
       <Collapse title="Major Arcana" size="small">
-        <li>
-          <Link to="./Card/01">I</Link>
-        </li>
-
-        <li>
-          <Link to="./Card/02">II</Link>
-        </li>
-
-        <li>
-          <Link to="./Card/03">III</Link>
-        </li>
-        <li>
-          <Link to="./Card/04">IV</Link>
-        </li>
-        <li>
-          <Link to="./Card/05">VI</Link>
-        </li>
-        <li>
-          <Link to="./Card/06">VII</Link>
-        </li>
-        <li>
-          <Link to="./Card/07">VIII</Link>
-        </li>
-        <li>
-          <Link to="./Card/08">Ⅸ</Link>
-        </li>
-        <li>
-          <Link to="./Card/09">X</Link>
-        </li>
-        <li>
-          <Link to="./Card/10">XI</Link>
-        </li>
-        <li>
-          <Link to="./Card/11">XII</Link>
-        </li>
+        {ids.map((id) => (
+          <li>
+            <Link to={`./Card/${id.id}`}>{id.name}</Link>
+          </li>
+        ))}
       </Collapse>
       <Collapse title="Air- Swords" size="small">
         <li>
