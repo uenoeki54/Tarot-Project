@@ -2,16 +2,19 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Collapse from './Collapse/Collapse';
 import ids from '.././assets/major.json';
+import hexagram from '../assets/unicursal-hexagram22.png';
 function Aside() {
   return (
     <div className="menu">
       <Link to="/">Back to Intromission</Link>
       <Collapse title="Major Arcana" size="small">
-        {ids.map((id) => (
-          <li key={id.id}>
-            <Link to={`./Card/${id.id}`}>{id.name}</Link>
-          </li>
-        ))}
+        <ul className="list">
+          {ids.map((id) => (
+            <li key={id.id} className="star">
+              <Link to={`./Card/${id.id}`}>{id.name}</Link>
+            </li>
+          ))}
+        </ul>
       </Collapse>
       <Collapse title="Air- Swords" size="small">
         <li>
