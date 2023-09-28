@@ -78,11 +78,13 @@ $main-beige: #f3e7a2;
       padding-left: 0px;
       margin: 0px;
       li {
-        background: url('../../assets/unicursal-hexagram-flashy22.png')
-          no-repeat left center;
         height: 34px;
         padding-top: 7px;
         padding-left: 44px;
+      }
+      li:hover {
+        background: url('../../assets/unicursal-hexagram-flashy22.png')
+          no-repeat left center;
       }
     }
   }

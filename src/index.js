@@ -8,23 +8,30 @@ import Home from './pages/Home';
 import Card from './pages/Card';
 import Error from './pages/Error';
 import Construction from './pages/Construction';
+import Switch from './components/Switch';
+const ThemeContext = React.createContext();
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <Router>
       <Header />
-      <div className="contenu">
-        <Aside />
-        <div>
-          <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/card/:cardId" element={<Card />} />
-            <Route path="/construction" element={<Construction />} />
-            <Route path="*" element={<Error />} />
-          </Routes>
+      <ThemeContext.Provider value="Light">
+        <div className="contenu">
+          <Aside />
+          <Switch />
+          <div>
+            <Routes>
+              <Route path="/" element={<Home />} />
+              <Route path="/card/:cardId" element={<Card />} />
+              <Route path="/construction" element={<Construction />} />
+              <Route path="*" element={<Error />} />
+            </Routes>
+          </div>
         </div>
-      </div>
+      </ThemeContext.Provider>
     </Router>
   </React.StrictMode>
 );
+
+export { ThemeContext };

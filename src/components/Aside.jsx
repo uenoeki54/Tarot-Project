@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import Collapse from './Collapse/Collapse';
 import ids from '.././assets/major.json';
-import hexagram from '../assets/unicursal-hexagram22.png';
+
 function Aside() {
   return (
     <div className="menu">
