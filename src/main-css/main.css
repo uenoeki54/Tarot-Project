@@ -196,4 +196,20 @@ header {
 }
 .error h1 {
   display: block;
+}
+
+button {
+  position: absolute;
+  color: white;
+  font-size: 60px;
+}
+
+.light {
+  color: #964712;
+  background-color: #f3e7a2;
+}
+
+.dark {
+  color: #f3e7a2 !important;
+  background-color: #964712 !important;
 }/*# sourceMappingURL=main.css.map */

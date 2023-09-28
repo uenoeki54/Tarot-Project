@@ -175,3 +175,18 @@ header {
     display: block;
   }
 }
+button {
+  position: absolute;
+  color: white;
+  font-size: 60px;
+}
+
+.light {
+  color: $font-color;
+  background-color: $main-beige;
+}
+
+.dark {
+  color: $main-beige !important;
+  background-color: $font-color !important;
+}

@@ -1,8 +1,12 @@
 import React from 'react';
-import { ThemeContext } from '../index.js';
+import { ThemeContext } from '../pages/Home';
 function Switch() {
-  const value = React.useContext(ThemeContext);
-  return <button className="switch">{<h1>{value} + Theme</h1>}</button>;
+  const { theme, toggleTheme } = React.useContext(ThemeContext);
+  return (
+    <button className="switch" onClick={toggleTheme}>
+      <h1>{theme + ' Theme'}</h1>
+    </button>
+  );
 }
 
 export default Switch;
