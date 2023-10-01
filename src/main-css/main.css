@@ -200,16 +200,28 @@ header {
 
 button {
   position: absolute;
+  left: 500px;
   color: white;
-  font-size: 60px;
+  font-size: 9px;
+  width: 120px;
+  height: 60px;
+  border-radius: 7px;
 }
 
 .light {
   color: #964712;
   background-color: #f3e7a2;
 }
+.light button {
+  background-color: #964712;
+  color: #f3e7a2;
+}
 
 .dark {
   color: #f3e7a2 !important;
   background-color: #964712 !important;
+}
+.dark button {
+  color: #964712;
+  background-color: #f3e7a2;
 }/*# sourceMappingURL=main.css.map */

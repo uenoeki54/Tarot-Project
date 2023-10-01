@@ -169,24 +169,35 @@ header {
   justify-content: space-evenly;
   align-items: center;
   margin: 300px 0px 0px 300px;
-  img {
-  }
+
   h1 {
     display: block;
   }
 }
 button {
   position: absolute;
+  left: 500px;
   color: white;
-  font-size: 60px;
+  font-size: 9px;
+  width: 120px;
+  height: 60px;
+  border-radius: 7px;
 }
 
 .light {
   color: $font-color;
   background-color: $main-beige;
+  button {
+    background-color: $font-color;
+    color: $main-beige;
+  }
 }
 
 .dark {
   color: $main-beige !important;
   background-color: $font-color !important;
+  button {
+    color: $font-color;
+    background-color: $main-beige;
+  }
 }
