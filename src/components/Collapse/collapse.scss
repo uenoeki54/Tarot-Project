@@ -1,6 +1,7 @@
 $main-color: #ff6060;
 $menu-color: rgba(240, 146, 40, 1);
 $main-beige: #f3e7a2;
+$font-color: #964712;
 * {
   box-sizing: border-box;
 }
@@ -10,13 +11,12 @@ $main-beige: #f3e7a2;
   justify-content: space-between !important;
   align-items: center;
   font-family: Montserrat;
-  background-color: $main-color;
-  width: 1023px;
   height: 52px;
   border-radius: 10px 10px 0px 0px;
-  background-image: url('../../assets/texture300.jpg');
   margin-top: 30px;
   padding: 10px 21px 10px 21px;
+  border: solid !important;
+  border: 3px;
   font-weight: 500;
   font-size: 15px;
   line-height: 20.22px;
@@ -52,7 +52,6 @@ $main-beige: #f3e7a2;
   width: 1023px;
   border-radius: 0px 0px 10px 10px;
   box-sizing: border-box;
-  background-color: $main-beige;
   // background-image: url('../../assets/texturedoomcontent.jpg');
   overflow: hidden;
   margin-left: auto;
@@ -73,6 +72,13 @@ $main-beige: #f3e7a2;
     a {
       z-index: 7;
     }
+    .dark a {
+      color: orange;
+    }
+    .light a {
+      color: $font-color;
+    }
+
     ul {
       list-style-type: none;
       padding-left: 0px;

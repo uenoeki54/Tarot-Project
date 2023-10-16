@@ -7,13 +7,12 @@
   justify-content: space-between !important;
   align-items: center;
   font-family: Montserrat;
-  background-color: #ff6060;
-  width: 1023px;
   height: 52px;
   border-radius: 10px 10px 0px 0px;
-  background-image: url("../../assets/texture300.jpg");
   margin-top: 30px;
   padding: 10px 21px 10px 21px;
+  border: solid !important;
+  border: 3px;
   font-weight: 500;
   font-size: 15px;
   line-height: 20.22px;
@@ -50,7 +49,6 @@
   width: 1023px;
   border-radius: 0px 0px 10px 10px;
   box-sizing: border-box;
-  background-color: #f3e7a2;
   overflow: hidden;
   margin-left: auto;
   margin-right: auto;
@@ -68,6 +66,12 @@
 }
 .content .description a {
   z-index: 7;
+}
+.content .description .dark a {
+  color: orange;
+}
+.content .description .light a {
+  color: #964712;
 }
 .content .description ul {
   list-style-type: none;

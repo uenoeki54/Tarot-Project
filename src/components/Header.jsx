@@ -4,12 +4,12 @@ import Citations from './Citations';
 function Header() {
   return (
     <header>
-      <img
+      {/* <img
         className="banner"
         src={banner}
         width="100%"
         alt="banner tarot project"
-      ></img>
+      ></img> */}
       <div>
         <Citations citations={quotes} />
       </div>
