@@ -7,7 +7,7 @@ function Aside() {
   return (
     <div className="menu">
       <Link to="/" className="back-home">
-        Back to Intromission
+        Back
       </Link>
       <Collapse title="Major Arcana" size="small">
         <ul className="list">
