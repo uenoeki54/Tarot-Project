@@ -19,6 +19,20 @@ body {
   scrollbar-color: #43180e #e1d79a;
   -webkit-scrollbar-width: thin;
   scrollbar-width: thin;
+  ::-webkit-scrollbar {
+    color: #43180e #e1d79a;
+    width: 2px;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: orange;
+    width: 1px;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: orange;
+  }
 }
 
 // GESTION DU DARK MODE
@@ -143,20 +157,8 @@ header {
     1 100%;
 
   overflow: scroll;
+  overflow-x: hidden;
 
-  ::-webkit-scrollbar {
-    color: #43180e #e1d79a;
-    width: thin;
-  }
-
-  ::-webkit-scrollbar-track {
-    background: orange;
-  }
-
-  ::-webkit-scrollbar-thumb {
-    border-radius: 6px;
-    background: orange;
-  }
   @media (max-width: 1920px) {
     top: 300px;
   }

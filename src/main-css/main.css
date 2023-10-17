@@ -18,6 +18,18 @@ body {
   -webkit-scrollbar-width: thin;
   scrollbar-width: thin;
 }
+body ::-webkit-scrollbar {
+  color: #43180e #e1d79a;
+  width: 2px;
+}
+body ::-webkit-scrollbar-track {
+  background: orange;
+  width: 1px;
+}
+body ::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: orange;
+}
 
 button {
   position: fixed;
@@ -133,17 +145,7 @@ header {
   -o-border-image: linear-gradient(to bottom, rgb(240, 146, 40), rgb(255, 227, 154)) 1 100%;
      border-image: linear-gradient(to bottom, rgb(240, 146, 40), rgb(255, 227, 154)) 1 100%;
   overflow: scroll;
-}
-.menu ::-webkit-scrollbar {
-  color: #43180e #e1d79a;
-  width: thin;
-}
-.menu ::-webkit-scrollbar-track {
-  background: orange;
-}
-.menu ::-webkit-scrollbar-thumb {
-  border-radius: 6px;
-  background: orange;
+  overflow-x: hidden;
 }
 @media (max-width: 1920px) {
   .menu {
