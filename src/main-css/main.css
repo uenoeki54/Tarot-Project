@@ -212,37 +212,37 @@ header {
 }
 @media (max-width: 800px) {
   .main .main-illustration {
-    top: 162px;
+    top: 200px;
     width: 162px;
   }
 }
 @media (max-width: 650px) {
   .main .main-illustration {
-    top: 132px;
+    top: 200px;
     width: 130px;
   }
 }
 @media (max-width: 500px) {
   .main .main-illustration {
-    top: 102px;
+    top: 200px;
     width: 102px;
   }
 }
 @media (max-width: 414px) {
   .main .main-illustration {
-    top: 83px;
+    top: 200px;
     width: 83px;
   }
 }
 @media (max-width: 375px) {
   .main .main-illustration {
-    top: 73px;
+    top: 200px;
     width: 73px;
   }
 }
 @media (max-width: 360px) {
   .main .main-illustration {
-    top: 70px;
+    top: 200px;
     width: 70px;
   }
 }
