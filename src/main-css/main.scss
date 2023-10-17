@@ -16,7 +16,11 @@ body {
   background-color: $font-color;
   margin: 0px;
   padding: 0px;
+  scrollbar-color: #43180e #e1d79a;
+  -webkit-scrollbar-width: thin;
+  scrollbar-width: thin;
 }
+
 // GESTION DU DARK MODE
 button {
   position: fixed;
@@ -46,6 +50,9 @@ button {
     overflow: hidden;
     width: 100%;
   }
+  a {
+    color: $font-color;
+  }
 }
 
 .dark {
@@ -64,6 +71,9 @@ button {
     overflow: hidden;
 
     width: 100%;
+  }
+  a {
+    color: orange;
   }
 }
 body {
@@ -131,15 +141,22 @@ header {
       rgba(255, 227, 154, 1)
     )
     1 100%;
-  // border-radius: 0px 10px 0px 10px;
-  // background: linear-gradient(
-  //   90deg,
-  //   rgba(240, 146, 40, 1) 17%,
-  //   rgba(255, 227, 154, 1) 100%
-  // );
+
   overflow: scroll;
-  scrollbar-color: #43180e #e1d79a;
-  scrollbar-width: thin;
+
+  ::-webkit-scrollbar {
+    color: #43180e #e1d79a;
+    width: thin;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: orange;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border-radius: 6px;
+    background: orange;
+  }
   @media (max-width: 1920px) {
     top: 300px;
   }
@@ -173,9 +190,11 @@ header {
   }
   .back-home {
     color: orange;
-    margin-left: 40px;
+    font-size: 20px;
+    margin-left: 15px;
   }
 }
+
 .main {
   font-family: Open Sans;
 

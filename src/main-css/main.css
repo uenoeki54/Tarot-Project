@@ -14,6 +14,9 @@ body {
   background-color: #964712;
   margin: 0px;
   padding: 0px;
+  scrollbar-color: #43180e #e1d79a;
+  -webkit-scrollbar-width: thin;
+  scrollbar-width: thin;
 }
 
 button {
@@ -45,6 +48,9 @@ button {
   overflow: hidden;
   width: 100%;
 }
+.light a {
+  color: #964712;
+}
 
 .dark {
   color: #f3e7a2 !important;
@@ -61,6 +67,9 @@ button {
   height: 200px;
   overflow: hidden;
   width: 100%;
+}
+.dark a {
+  color: orange;
 }
 
 body {
@@ -124,8 +133,17 @@ header {
   -o-border-image: linear-gradient(to bottom, rgb(240, 146, 40), rgb(255, 227, 154)) 1 100%;
      border-image: linear-gradient(to bottom, rgb(240, 146, 40), rgb(255, 227, 154)) 1 100%;
   overflow: scroll;
-  scrollbar-color: #43180e #e1d79a;
-  scrollbar-width: thin;
+}
+.menu ::-webkit-scrollbar {
+  color: #43180e #e1d79a;
+  width: thin;
+}
+.menu ::-webkit-scrollbar-track {
+  background: orange;
+}
+.menu ::-webkit-scrollbar-thumb {
+  border-radius: 6px;
+  background: orange;
 }
 @media (max-width: 1920px) {
   .menu {
@@ -177,7 +195,8 @@ header {
 }
 .menu .back-home {
   color: orange;
-  margin-left: 40px;
+  font-size: 20px;
+  margin-left: 15px;
 }
 
 .main {
