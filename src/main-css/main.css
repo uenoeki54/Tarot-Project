@@ -255,7 +255,8 @@ header {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  margin: 300px 0px 0px 300px;
+  margin: 0px 0px 0px 300px;
+  padding-top: 250px;
 }
 .error h1 {
   display: block;
