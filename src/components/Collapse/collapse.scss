@@ -119,7 +119,7 @@ $font-color: #964712;
   // box-shadow: 0em 0 0.2em olive;
 
   .description {
-    padding: 30px 15px 15px 15px;
+    padding: 30px 15px 15px 5%;
     font-family: Montserrat;
     font-weight: 20px;
     color: $main-color;
@@ -143,7 +143,7 @@ $font-color: #964712;
       li {
         height: 34px;
         padding-top: 7px;
-        padding-left: 44px;
+        padding-left: 40%;
       }
       li:hover {
         background: url('../../assets/unicursal-hexagram-flashy22.png')
