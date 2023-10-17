@@ -10,7 +10,7 @@
   height: 52px;
   border-radius: 10px 10px 0px 0px;
   margin-top: 30px;
-  padding: 10px 21px 10px 21px;
+  padding: 10px 21px 10px 5%;
   border: solid !important;
   border: 3px;
   font-weight: 500;
@@ -21,14 +21,54 @@
   z-index: 5;
   color: rgb(240, 146, 40);
 }
-@media (max-width: 470px) {
-  .collapse {
-    margin-top: 18px;
-  }
-}
 .collapse h2 {
   font-size: 24px;
   display: block;
+}
+@media (max-width: 1920px) {
+  .collapse h2 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 1536px) {
+  .collapse h2 {
+    font-size: 21px;
+  }
+}
+@media (max-width: 1366px) {
+  .collapse h2 {
+    font-size: 20px;
+  }
+}
+@media (max-width: 800px) {
+  .collapse h2 {
+    font-size: 12px;
+  }
+}
+@media (max-width: 650px) {
+  .collapse h2 {
+    font-size: 11px;
+  }
+}
+@media (max-width: 500px) {
+  .collapse h2 {
+    font-size: 10px;
+  }
+}
+@media (max-width: 414px) {
+  .collapse h2 {
+    font-size: 9px;
+  }
+}
+@media (max-width: 375px) {
+  .collapse h2 {
+    font-size: 8px;
+  }
+}
+@media (max-width: 360px) {
+  .collapse h2 {
+    font-size: 7px;
+  }
 }
 .collapse i {
   display: block;
@@ -88,5 +128,5 @@
 }
 
 .small {
-  width: 200px;
+  width: 90%;
 }/*# sourceMappingURL=collapse.css.map */

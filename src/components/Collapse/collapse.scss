@@ -14,7 +14,7 @@ $font-color: #964712;
   height: 52px;
   border-radius: 10px 10px 0px 0px;
   margin-top: 30px;
-  padding: 10px 21px 10px 21px;
+  padding: 10px 21px 10px 5%;
   border: solid !important;
   border: 3px;
   font-weight: 500;
@@ -25,12 +25,40 @@ $font-color: #964712;
   z-index: 5;
   color: $menu-color;
   // box-shadow: 0 0 5px 5px rgba(0, 0, 0, 0.4);
-  @media (max-width: 470px) {
-    margin-top: 18px;
-  }
+  // @media (max-width: 470px) {
+  //   margin-top: 18px;
+  // }
+
   h2 {
     font-size: 24px;
     display: block;
+    @media (max-width: 1920px) {
+      font-size: 21px;
+    }
+    @media (max-width: 1536px) {
+      font-size: 21px;
+    }
+    @media (max-width: 1366px) {
+      font-size: 20px;
+    }
+    @media (max-width: 800px) {
+      font-size: 12px;
+    }
+    @media (max-width: 650px) {
+      font-size: 11px;
+    }
+    @media (max-width: 500px) {
+      font-size: 10px;
+    }
+    @media (max-width: 414px) {
+      font-size: 9px;
+    }
+    @media (max-width: 375px) {
+      font-size: 8px;
+    }
+    @media (max-width: 360px) {
+      font-size: 7px;
+    }
   }
   i {
     display: block;
@@ -97,5 +125,5 @@ $font-color: #964712;
 }
 
 .small {
-  width: 200px;
+  width: 90%;
 }
