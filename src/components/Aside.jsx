@@ -18,7 +18,34 @@ function Aside() {
           ))}
         </ul>
       </Collapse>
+      <Collapse title="Fire - Wands" size="small">
+        <ul className="list">
+          {swordsIds.map((id) => (
+            <li key={id.id} className="star">
+              <Link to={`./Card/${id.id}`}>{id.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </Collapse>
+      <Collapse title="Water - Cups" size="small">
+        <ul className="list">
+          {swordsIds.map((id) => (
+            <li key={id.id} className="star">
+              <Link to={`./Card/${id.id}`}>{id.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </Collapse>
       <Collapse title="Air- Swords" size="small">
+        <ul className="list">
+          {swordsIds.map((id) => (
+            <li key={id.id} className="star">
+              <Link to={`./Card/${id.id}`}>{id.name}</Link>
+            </li>
+          ))}
+        </ul>
+      </Collapse>
+      <Collapse title="Earth- Disks" size="small">
         <ul className="list">
           {swordsIds.map((id) => (
             <li key={id.id} className="star">
