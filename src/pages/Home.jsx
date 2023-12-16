@@ -44,6 +44,10 @@ function Home() {
         </p>
         <br />
         <b>Jack Parsons</b>
+        <br />
+        <br />
+        <br />
+        <br />
         <p>
           The purpose of this online tool is to provide as diverse as possible a
           support for intepretation of and meditation upon Tarot cards.
