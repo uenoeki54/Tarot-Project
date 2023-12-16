@@ -34,7 +34,16 @@ function Home() {
         </b>
         <br />
         <br />
+        <p>
+          <i>
+            Remember that the Tarot is a great and sacred arcanum - its abuse is
+            an obscenity in the inner and a folly in the outer. It is intended
+            for quite other purposes than to determine when the tall dark man
+            will meet the fair rich widow.
+          </i>
+        </p>
         <br />
+        <b>Jack Parsons</b>
         <p>
           The purpose of this online tool is to provide as diverse as possible a
           support for intepretation of and meditation upon Tarot cards.
